@@ -56,6 +56,8 @@ function removeError(input) {
     
     if (/^[a-zA-Z]+$/.test(input.val())) {
         input.removeClass('error-border');
+    } else {
+        input.addClass('erro-border');
     }
 }
 
