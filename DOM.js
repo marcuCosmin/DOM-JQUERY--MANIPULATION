@@ -42,6 +42,8 @@ function removeError(input) {
     
     if (/^[a-zA-Z]+$/.test(input.value)) {
         input.classList.remove('error-border');
+    } else {
+        input.classList.add('error-border');
     }
 }
 
